@@ -1,0 +1,1 @@
+int command(const char *string, char *outbuf, int outlen, char *errbuf, int errlen);
