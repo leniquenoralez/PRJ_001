@@ -41,7 +41,6 @@ int command(const char *string, char *outbuf, int outlen, char *errbuf, int errl
 
     if (pid == 0)
     {
-        printf("running: %s\n", string);
         close(STDOUT_FILENO);
         dup(outPipefd[1]);
 
