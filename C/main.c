@@ -1,13 +1,15 @@
 #include "command.h"
 #include <stdlib.h>
 #include <stdio.h>
-void clearBuf(char *outbuf, int buflen)
+
+void clearBuf(char *buf, int buflen)
 {
     for (size_t i = 0; i < buflen; i++)
     {
-        outbuf[i] = '\0';
+        buf[i] = '\0';
     }
 }
+
 int main(int argc, char const *argv[])
 {
     const char *string = argv[1];
