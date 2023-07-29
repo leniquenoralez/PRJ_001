@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	run "run-command/command"
+	run "run/command"
 )
 
 func main() {
